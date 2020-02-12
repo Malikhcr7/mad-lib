@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+
+<script>
+var noun= prompt("noun");
+var adjective= prompt("adjective");
+var verb= prompt("verb");
+var color=prompt("color");
+var adverb=prompt("adverb");
+
+var story = "A " + adjective + " farmer found a stray hen and took it home. The next day the hen had laid a golden egg! " + noun + " and his wife couldn’t believe their luck. The farmer soon became very rich because the hen laid a golden egg every day. The <adjective>farmer then became " + adverb + " greedy. One day, he thought, “If I kill this hen, I can take out all the " + color + " eggs from its stomach together. Then I can " + verb + " all the eggs and become rich, even faster!” In the hope of finding lots of golden eggs within, he killed the hen. But of course he found no eggs. He was very upset and cried over his foolishness. Out of greed, he had robbed himself of even what he had. He had learnt his lesson but it was too late."
+document.write(story);
+
+</script>
+
+</head>
+<body>
+<p></p>
+
+</body>
+</html>
